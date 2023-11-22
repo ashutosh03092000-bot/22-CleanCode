@@ -80,8 +80,9 @@ public bool IsShopOpen(string day)
     string[] openingDays = new[] { "friday", "saturday", "sunday" };
     return openingDays.Any(d => d == day.ToLower());
 }
+
 review 4
-  
+//Use "ListOfCity" in place od "l"
 //Avoid naming variables that cant be understand
 var l = new[] { "Austin", "New York", "San Francisco" };
 
