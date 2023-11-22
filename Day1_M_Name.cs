@@ -1,5 +1,4 @@
 review1.cs
-
 //Avoid using bad names
 int d; // elapsed time in days
 
@@ -43,6 +42,7 @@ class animal {}
 class Alpaca {}
 
 review6.cs
+//Naming should be proper and understandable
 public class Employee
 {
     public Datetime sWorkDate { get; set; } // get set Start Working Date
