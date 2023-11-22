@@ -122,7 +122,12 @@ review 7
 var ymdstr = DateTime.UtcNow.ToString("MMMM dd, yyyy");
 //Variable naming should be clear
 
-review 9
+string USER_ADMIN_ROLE = Console.ReadLine()
+if (USER_ADMIN_ROLE == "admin") // Check if Admin //magic number take input or taks as string
+{
+}
+
+review 9    
 public void CreateMicrobrewery(string name = null)
 {
     var breweryName = !string.IsNullOrEmpty(name) ? name : "Hipster Brew Co.";
